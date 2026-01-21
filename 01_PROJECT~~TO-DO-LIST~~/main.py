@@ -5,8 +5,8 @@ welcome()
 
 
 while True:
-    if Lists is None:
-        continue
+    if not Lists:
+        print(f"Chose your command\n1.Add task--> '1'\n2.Remove task--> '2'\n3. Exit--> '3'")
     else:
         print(f"{Lists} \nChose your command\n1.Add task--> '1'\n2.Remove task--> '2'\n3. Exit--> '3'")
     user=str(input("Enter your command: "))
@@ -34,5 +34,6 @@ while True:
     
     else:
         print("Something error!! Try again")
+
 
 
