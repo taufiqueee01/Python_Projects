@@ -1,0 +1,20 @@
+RESUME ANALYZER - HOW TO USE
+============================
+
+WHAT IT DOES:
+Check your resume quality and get a score out of 100 with improvement suggestions.
+
+HOW TO RUN:
+1. Open terminal and go to this folder
+2. Run: python main.py
+3. Select option 1: Analyze Resume
+4. Paste your resume text
+5. Press Enter twice when done
+
+YOU GET:
+- Score out of 100
+- List of keywords found
+- Missing keywords to add
+- Improvement suggestions
+
+No data file needed - analysis is instant!

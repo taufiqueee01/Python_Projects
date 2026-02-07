@@ -1,0 +1,19 @@
+BUDGET PLANNER - HOW TO USE
+===========================
+
+WHAT IT DOES:
+Manage income and expenses, then predict when you'll reach savings goals.
+
+HOW TO RUN:
+1. Open terminal and go to this folder
+2. Run: python main.py
+3. Choose from menu options
+4. Follow prompts
+
+BASIC WORKFLOW:
+1. Set Monthly Income: Enter your monthly income
+2. Add Expenses: Add category and amount
+3. View Summary: See savings and rate
+4. Predict Goal: Enter savings goal to see months needed
+
+Data saves automatically in budget_data.csv

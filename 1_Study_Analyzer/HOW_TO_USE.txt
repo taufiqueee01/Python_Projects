@@ -1,0 +1,18 @@
+STUDY SESSION ANALYZER - HOW TO USE
+===================================
+
+WHAT IT DOES:
+Track study sessions and see your productivity patterns.
+
+HOW TO RUN:
+1. Open terminal and go to this folder
+2. Run: python main.py
+3. Choose option from menu
+4. Follow prompts
+
+BASIC WORKFLOW:
+- Add Study Session: Enter subject and hours
+- View Total Hours: See total study time
+- Weekly Summary: Check last 7 days activity
+
+Data saves automatically in study_data.csv

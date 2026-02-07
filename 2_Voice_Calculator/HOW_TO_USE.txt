@@ -1,0 +1,18 @@
+VOICE CALCULATOR - HOW TO USE
+==============================
+
+WHAT IT DOES:
+Calculate math by describing operations in words instead of typing symbols.
+
+HOW TO RUN:
+1. Open terminal and go to this folder
+2. Run: python main.py
+3. Select option 1: Calculator
+4. Type calculations like "5 plus 7" or "10 divided by 2"
+
+EXAMPLE INPUTS:
+- "5 plus 7" -> Result: 12
+- "10 minus 3" -> Result: 7
+- "20 divided by 4" -> Result: 5
+
+Type "exit" to quit

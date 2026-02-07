@@ -1,0 +1,19 @@
+SMART TO-DO - HOW TO USE
+========================
+
+WHAT IT DOES:
+Organize tasks by priority and get suggestions on what to do first.
+
+HOW TO RUN:
+1. Open terminal and go to this folder
+2. Run: python main.py
+3. Choose from menu options
+4. Follow prompts
+
+BASIC WORKFLOW:
+- Add Task: Enter task and priority (1-5, 1 is urgent)
+- View Tasks: See all tasks sorted by priority
+- Most Important: Get top task to focus on
+- Mark Complete: Finish a task
+
+Data saves automatically in tasks.csv

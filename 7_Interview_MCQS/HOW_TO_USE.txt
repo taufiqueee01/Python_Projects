@@ -1,0 +1,20 @@
+INTERVIEW MCQ SYSTEM - HOW TO USE
+=================================
+
+WHAT IT DOES:
+Practice timed interview questions to boost confidence before real interviews.
+
+HOW TO RUN:
+1. Open terminal and go to this folder
+2. Run: python main.py
+3. Select option 1: Start Quiz
+4. Answer 10 questions in 3 minutes
+5. View score and performance rating
+
+YOU GET:
+- Score out of 10
+- Percentage
+- Performance rating (Excellent, Good, etc)
+- High score tracking
+
+Data saves automatically in high_scores.txt

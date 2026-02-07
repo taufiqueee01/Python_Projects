@@ -1,0 +1,19 @@
+HABIT TRACKER - HOW TO USE
+==========================
+
+WHAT IT DOES:
+Track daily habits and build streaks to stay consistent.
+
+HOW TO RUN:
+1. Open terminal and go to this folder
+2. Run: python main.py
+3. Choose from menu options
+4. Follow prompts
+
+BASIC WORKFLOW:
+- Add New Habit: Enter habit name
+- Mark Complete: Check off habit for today
+- View Streaks: See current streak progress
+- View Longest Streak: Check your best achievement
+
+Data saves automatically in habits.csv
