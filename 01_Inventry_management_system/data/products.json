@@ -1,11 +1,11 @@
 [
     {
-        "Id": "121212",
-        "Name": "ad",
-        "Category": "ad",
-        "Price": 1,
-        "Quantity": 1,
-        "Supplier": "1",
-        "Created_Date": "1"
+        "Id": "100",
+        "Name": "Mouse",
+        "Category": "Electronics",
+        "Price": 299,
+        "Quantity": 5,
+        "Supplier": "Euro games",
+        "Created_Date": "Jan"
     }
 ]

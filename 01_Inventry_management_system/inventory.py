@@ -107,11 +107,13 @@ class Inventory:
             print("Invalid product id")
 
     def delete_product(self):
-        
+        with open("data/products.json","r") as R:
+            data = json.load(R)
+            
         user=input("please enter product id: ")
         
         for product in data:
-            if product["id"] == user:
+            if product["Id"] == user:
                 data.remove(product)
                 
                 with open("data/products.json","w")as file:
@@ -121,11 +123,17 @@ class Inventory:
         
 
     def search_product(self):
+        with open("data/products.json","r") as R:
+            data = json.load(R)
+            
+
+            
         user=input("enter product id: ")
         
-        for product in data:
-            if product["id"] == user:
-                data.
+        for product in data:           
+            if product["Id"] == user:
+                print(json.dumps(data[0],indent=4))
+                # print(data[0])
 
     # def view_products(self,Id):
     #     ...
