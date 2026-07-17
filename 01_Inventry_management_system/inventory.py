@@ -1,7 +1,10 @@
 import json
-from product import Product
+
+with open("data/products.json","r") as R:
+    data = json.load(R)
 
 class Inventory:
+    
          
     def add_product(self):
         
@@ -15,9 +18,6 @@ class Inventory:
             "Supplier": input("Enter Supplier Name: "),
             "Created_Date":  input("Enter Created date: ")           
         }
-
-        with open("data/products.json","r") as R:
-            data = json.load(R)
             
         for i in data:
             
@@ -27,20 +27,16 @@ class Inventory:
                 
         data.append(self.Adding_as_dict)
         
-        with open("data/products.json","w") as W:
-            json.dump(data,W,indent=4)
-        
-        print("Product is succesfully added")
+        with open("data/products.json","w") as file:
+            json.dump(data,file,indent=4) 
+            print("Product is succesfully added")
         
     def update_product(self):
-        
-        with open("data/products.json","r") as R:
-            data = json.load(R)
             
         Cheaking_id=input("Please enter product id: ")
         
         for product in data:  
-
+            
             if Cheaking_id == product["Id"]:
         
                 print("1.Name")
@@ -56,9 +52,8 @@ class Inventory:
                     print("Invalid input please chose the candrect option ")
                     break
                     
-                    
-        
                 if user =="1":
+                    
                     a=input("Enter new product name: ")
                     product["Name"] = a
                             
@@ -66,8 +61,7 @@ class Inventory:
                         json.dump(data,file,indent=4)
                         print("Product updated successfully.")
                         
-
-                
+                        
                 elif user == "2":
                     b=input("Enter new Product Category: ")
                     product["Category"]=b
@@ -102,13 +96,10 @@ class Inventory:
                         json.dump(data,file,indent=4)
                         print("Product updated successfully.")
                 break
-            
         else:
             print("Invalid product id")
 
     def delete_product(self):
-        with open("data/products.json","r") as R:
-            data = json.load(R)
             
         user=input("please enter product id: ")
         
@@ -122,18 +113,13 @@ class Inventory:
                 
         
 
-    def search_product(self):
-        with open("data/products.json","r") as R:
-            data = json.load(R)
-            
-
-            
+    def search_product(self): 
+                
         user=input("enter product id: ")
         
         for product in data:           
             if product["Id"] == user:
                 print(json.dumps(data[0],indent=4))
-                # print(data[0])
 
 a=Inventory()
-
+a.update_product()
