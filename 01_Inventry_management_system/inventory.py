@@ -135,6 +135,5 @@ class Inventory:
                 print(json.dumps(data[0],indent=4))
                 # print(data[0])
 
-    # def view_products(self,Id):
-    #     ...
 a=Inventory()
+
