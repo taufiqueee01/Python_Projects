@@ -137,3 +137,4 @@ class Inventory:
 
     # def view_products(self,Id):
     #     ...
+a=Inventory()
