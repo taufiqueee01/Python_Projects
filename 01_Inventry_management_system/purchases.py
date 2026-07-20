@@ -65,11 +65,13 @@ class Purchases:
                     print("Please enter valid options")
         else:
             print("Product not found")                    
-        
+    
+    def View_history(self):   
+        print(json.dumps(Purchases_json,indent=4))
+         
                 
                 
-a=Purchases()
-a.BuyStocks()
+
         
         
 # Date
