@@ -15,7 +15,7 @@ class Purchases:
         
         print("Welcome to buy stock area !")
         
-        Name=input("Enter product name: ")
+        Name=input("Enter product name: ").capitalize()
         
         for product in Products_json:
             
@@ -25,7 +25,7 @@ class Purchases:
             elif Name == product["Name"]:
                 
                 print(f"Product name : Quantity \n{product["Name"]} : {product["Quantity"]}")
-                print(f"If you want to purchase more stocks of {product["Name"]} \n1.Yes\n2.No")
+                print(f"Do you want to purchase more stocks of {product["Name"]} \n1.Yes\n2.No")
                 
                 choice=input("Enter here--->    ").capitalize()
                 
@@ -44,7 +44,7 @@ class Purchases:
                             "Date":Time,
                             "Id":product["Id"],
                             "Name":product["Name"],
-                            "Quantity":Quantity
+                            "Quantity_Purchased":Quantity
                         }
                         
                         Purchases_json.append(History)
@@ -72,7 +72,8 @@ class Purchases:
                 
                 
 
-        
+a=Purchases()       
+a.BuyStocks()
         
 # Date
 # quantity

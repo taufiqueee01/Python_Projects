@@ -4,8 +4,17 @@
         "Name": "Mouse",
         "Category": "Electronics",
         "Price": 299,
-        "Quantity": 177,
+        "Quantity": 277,
         "Supplier": "Euro games",
         "Created_Date": "Jan"
+    },
+    {
+        "Id": "101",
+        "Name": "Keybord",
+        "Category": "Electronics",
+        "Price": 400,
+        "Quantity": 40,
+        "Supplier": "Euro Games",
+        "Created_Date": "july"
     }
 ]

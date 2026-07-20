@@ -121,5 +121,3 @@ class Inventory:
             if product["Id"] == user:
                 print(json.dumps(data[0],indent=4))
 
-a=Inventory()
-a.update_product()
