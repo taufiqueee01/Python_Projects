@@ -74,5 +74,3 @@ class Sales:
         else:
             print("Invalid choice")    
                
-a=Sales()
-a.User()

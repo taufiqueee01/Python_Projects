@@ -70,10 +70,7 @@ class Purchases:
         print(json.dumps(Purchases_json,indent=4))
          
                 
-                
-
-a=Purchases()       
-a.BuyStocks()
+            
         
 # Date
 # quantity
